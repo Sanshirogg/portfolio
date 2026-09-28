@@ -10,3 +10,6 @@ jobs :
     steps:
      - name: Say Hello
        run: echo "Hello from Sanzhar"
+
+     - name: Show OS
+       run: uname -a
